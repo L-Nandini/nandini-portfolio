@@ -142,7 +142,7 @@ function Contact() {
                   name="name"
                   placeholder="Your Name"
                   required
-                  autoFocus
+                  // autoFocus
                   autoComplete="name"
                   minLength={3}
                   maxLength={40}
