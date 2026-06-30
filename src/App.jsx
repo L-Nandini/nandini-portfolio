@@ -12,6 +12,8 @@ import Contact from "./components/sections/Contact";
 
 import ScrollToTop from "./components/ui/ScrollToTop";
 
+import { ToastContainer } from "react-toastify";
+
 function App() {
   return (
     <>
@@ -31,6 +33,18 @@ function App() {
       <Footer />
 
       <ScrollToTop />
+
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={true}
+        closeOnClick
+        pauseOnFocusLoss
+        pauseOnHover
+        draggable
+        theme="dark"
+      />
     </>
   );
 }
