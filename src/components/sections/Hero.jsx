@@ -106,7 +106,7 @@ function Hero() {
             </Button>
 
             <Button
-              href="/resume.pdf"
+              href="public/resume.pdf"
               download
               variant="secondary"
             >
