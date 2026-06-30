@@ -52,7 +52,7 @@ function Hero() {
           />
 
           <p className="text-gray-400">
-            Java • Spring Boot • React • MySQL
+            Java • Web Development • ServiceNow • MySQL
           </p>
 
           <p className="max-w-xl text-lg text-gray-300 leading-8">
