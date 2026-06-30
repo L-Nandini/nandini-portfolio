@@ -4,6 +4,7 @@ function Button({
   variant = "primary",
   download = false,
   target,
+  onClick,
   className = "",
 }) {
   const baseClasses =
@@ -22,6 +23,7 @@ function Button({
       href={href}
       download={download}
       target={target}
+      onClick={onClick}
       rel={target === "_blank" ? "noopener noreferrer" : undefined}
       className={`${baseClasses} ${variants[variant]} ${className}`}
     >

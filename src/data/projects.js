@@ -7,14 +7,10 @@ export const projects = [
     title: "AI Vigil Guard",
     description:
       "Real-time adversarial attack detection system for Machine Learning models with FastAPI and Streamlit dashboard.",
-    tech: [
-      "Python",
-      "FastAPI",
-      "Streamlit",
-      "Scikit-learn",
-    ],
+    tech: ["Python", "FastAPI", "Streamlit", "Scikit-learn"],
     github: "https://github.com/L-Nandini/Adversarial-AI-Defense-System",
-    demo: "#",
+    demo: "",
+    deployed: false,
     image: ai,
   },
 
@@ -22,14 +18,10 @@ export const projects = [
     title: "Expense Tracker",
     description:
       "Full Stack application for managing income and expenses with secure authentication and dashboard.",
-    tech: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JavaScript",
-    ],
+    tech: ["Node.js", "Express.js", "MongoDB", "JavaScript"],
     github: "https://github.com/L-Nandini/Expense-Tracker",
-    demo: "#",
+    demo: "",
+    deployed: false,
     image: expense,
   },
 
@@ -37,13 +29,10 @@ export const projects = [
     title: "Freelance Finder",
     description:
       "Platform connecting freelancers and clients with project posting and bidding features.",
-    tech: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-    ],
+    tech: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/L-Nandini/Freelance-Finder",
-    demo: "#",
+    demo: "",
+    deployed: false,
     image: freelance,
   },
 ];
