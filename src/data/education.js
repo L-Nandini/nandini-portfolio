@@ -6,7 +6,7 @@ export const education = [
     title: "Bachelor of Technology (CSE)",
     institute: "St. Ann's College of Engineering & Technology",
     location: "Chirala, Andhra Pradesh",
-    score: "CGPA: 9.3",
+    score: "CGPA: 8.9",
     icon: FaGraduationCap,
   },
 
